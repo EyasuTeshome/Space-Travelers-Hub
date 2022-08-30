@@ -1,15 +1,12 @@
 nav {
-    background-color: white;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-nav {
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   display: flex;
 }
 
 h1 {
-  color:brown;
-  margin-right: auto;  
+  color: brown;
+  margin-right: auto;
   margin-left: 3rem;
 }
 
