@@ -8,8 +8,9 @@ nav {
 }
 
 h1 {
-  color: aqua;
+  color:brown;
   margin-right: auto;  
+  margin-left: 3rem;
 }
 
 .list {
