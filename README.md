@@ -1,13 +1,13 @@
 ## Book Store
 
-In this project we have built a space travelors hub website. 
+In this project we have built a space travelors hub website. The application will allow users to book rockets and join selected space missions.
 
 
 ## Built With
 
 - HTML, 
 - CSS and 
-- JavaScript/React(framework)
+- JavaScript/React-Redux(framework)
   
 ## Live Demo
 
