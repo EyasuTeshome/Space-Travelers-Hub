@@ -1,3 +1,9 @@
+// Join mission
+export const joinMission = (payload) => ({
+  type: JOIN_MISSION,
+  payload,
+});
+
 export const fetchingData = () => async (dispatch) => {
   const data = await fetch('https://api.spacexdata.com/v3/missions', {
     method: 'GET',
