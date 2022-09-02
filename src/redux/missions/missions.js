@@ -1,3 +1,16 @@
+// *Constants
+// const FETCH = 'FETCH';
+const STORE = 'STORE';
+const JOIN_MISSION = 'JOIN_MISSION';
+const LEAVE_MISSION = 'LEAVE_MISSION';
+
+// *Actions
+// Store data
+export const storeMissions = (payload) => ({
+  type: STORE,
+  payload,
+});
+
 // Join mission
 export const joinMission = (payload) => ({
   type: JOIN_MISSION,
@@ -10,6 +23,9 @@ export const leaveMission = (payload) => ({
   payload,
 });
 
+// Leave mission
+
+// Fetch data from API
 export const fetchingData = () => async (dispatch) => {
   const data = await fetch('https://api.spacexdata.com/v3/missions', {
     method: 'GET',
