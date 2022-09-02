@@ -10,6 +10,15 @@ export const storeRockets = (payload) => ({
   payload,
 });
 
+export const reserveRocket = (payload) => ({
+  type: RESERVE_ROCKET,
+  payload,
+});
+
+export const cancelReservation = (payload) => ({
+  type: CANCEL_ROCKET,
+  payload,
+});
 
 // Fetch data from API
 export const fetchingData = () => async (dispatch) => {
