@@ -4,6 +4,12 @@ export const joinMission = (payload) => ({
   payload,
 });
 
+// Leave mission
+export const leaveMission = (payload) => ({
+  type: LEAVE_MISSION,
+  payload,
+});
+
 export const fetchingData = () => async (dispatch) => {
   const data = await fetch('https://api.spacexdata.com/v3/missions', {
     method: 'GET',
