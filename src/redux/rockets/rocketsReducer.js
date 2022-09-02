@@ -1,3 +1,16 @@
+// *Constants
+const FETCH_ROCKET = 'FETCH_ROCKET';
+const RESERVE_ROCKET = 'RESERVE_ROCKET';
+const CANCEL_ROCKET = 'CANCEL_ROCKET';
+
+// *Actions
+// Store data
+export const storeRockets = (payload) => ({
+  type: FETCH_ROCKET,
+  payload,
+});
+
+
 // Fetch data from API
 export const fetchingData = () => async (dispatch) => {
   const data = await fetch('https://api.spacexdata.com/v3/rockets', {
