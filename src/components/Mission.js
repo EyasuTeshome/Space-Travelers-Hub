@@ -20,6 +20,7 @@ const Mission = (props) => {
       dispatch(joinMission(id));
     }
   };
+
   return (
     <div>
       <div
@@ -88,4 +89,3 @@ Mission.propTypes = {
 };
 
 export default Mission;
-
