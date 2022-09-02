@@ -1,6 +1,6 @@
 ## Book Store
 
-In this project I have built a book store. In completion the website will enable users to add and remove books from the store.
+In this project we have built a space travelors hub website. 
 
 
 ## Built With
